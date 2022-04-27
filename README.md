@@ -1,4 +1,7 @@
-# GDP Analysis
+# Analysis for GDP in India
+# Aim
+To check if there is any relationship between per capita GDP with dropout rates in education.
+
 # Problem Description
 [NITI Aayog](https://en.wikipedia.org/wiki/NITI_Aayog) (National Institution for Transforming India) is a policy think tank of the Government of India; it provides strategic inputs to the central and the state governments to achieve various development goals. In the past, NITI Aayog has played an important role in initiatives such as Digital India, Atal Innovation Mission and various agricultural reforms and have designed various policies in education, skill development, water management, healthcare, etc.
 In this project NITI Aayog will provide top-level recommendations to the Chief Ministers (CMs) of various states, which will help them prioritise areas of development for their respective states. Since different states are in different phases of development, the recommendations should be specific to the states.
@@ -11,8 +14,4 @@ Total GDP divided by the population gives the **per capita GDP**, which roughly 
 # Data
 The data is sourced from https://data.gov.in/, an Open Government Data (OGD) platform of India. The download instructions are provided in the next segment. The data for GDP analysis of the Indian states is divided into two parts:
 - Data I-A: This dataset consists of the GSDP (Gross State Domestic Product) data for the states and union territories.
-- Data I-B: This dataset contains the distribution of GSDP among three sectors: the primary sector (agriculture), the secondary sector (industry) and the tertiary sector (services) along with taxes and subsidies. There is separate dataset for each of the states. You are expected to read the dataset for the available states and join these (in Python) if needed.
-
-# Expected 
-- GDP Analysis of the Indian States
-- GDP and Education Dropout Rates: To check if there is any relationship between per capita GDP with dropout rates in education.
+- Data I-B: This dataset contains the distribution of GSDP among three sectors: the primary sector (agriculture), the secondary sector (industry) and the tertiary sector (services) along with taxes and subsidies. There is separate dataset for each of the states. We will read the dataset for the available states and join these (in Python) if needed.
